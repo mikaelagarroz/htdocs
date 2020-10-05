@@ -1,0 +1,287 @@
+body{
+	margin: 0;
+    background-color: #cccccc;
+    font-family: "Century Gothic", sans-serif;
+    font-weight: 400;
+}
+
+.container{
+width: 80%;
+margin: 0 auto;
+text-align: left;
+}
+
+.posts{
+    margin: 0 auto;
+    text-align: center;
+    width: 280px;
+    padding:20px;
+    margin-bottom:4px;
+    background-color: rgb(190, 186, 186);
+    border-radius: 4px;
+}
+
+label{
+	padding: 10px 10px 10px 0;
+	display: inline-block;
+	margin-right: 5px;
+}
+input[type=text], select, textarea{
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	resize: vertical;
+  }
+
+header{
+	background-color:  rgb(175, 215, 216);
+	color: black;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+h1{
+	text-align: center;
+}
+
+p{
+    text-align: center;
+}
+ 
+.logo{
+	float: left;
+}
+/*Nav saker är för navigationbaren(menyn)*/
+nav{
+	float:right;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li{
+	display: inline-block;
+	margin-left: 70px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+ 
+    position: relative;
+}
+
+nav a{
+	color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+nav a:hover{
+    color: #000;
+    font-weight: 450;
+}
+ 
+nav a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #444;
+ 
+    position: absolute;
+    top: 0;
+    width: 0%;
+ 
+    transition: all ease-in-out 250ms;
+}
+ 
+nav a:hover::before{
+    width: 100%;
+}
+.bottom-text{
+	margin-top: 30px;
+	text-align: center;
+	font-size: 20px;
+}
+.formB{
+	width: 400px;
+	background: rgb(175, 215, 216);
+	height: 600px;
+	padding: 35px 30px;
+	border-radius: 20px;
+	/*position: absolute;*/
+	margin-left: 30px;
+	top: 50%;
+	/*transform: translate(-50%, -50%);*/
+	font-family: "Century Gothic", sans-serif;
+}
+.buttonholder{/*En div class för just denna knapp så den håller sig i mitten*/
+	text-align: center;
+}
+
+.submit{/*Detta är knappeffekter*/
+
+	border: 1px solid black;
+	border-radius: 6px;
+	background: none;
+	padding: 10px 20px;
+    font-size: 20px;
+   	font-family: "Century Gothic", sans-serif;
+    cursor: pointer;
+    margin: 30px;
+    transition: 0.8s;
+    position: relative;
+	overflow: hidden;
+
+	color: black;
+	
+}
+
+.submit:hover{
+	color: white;
+	border: 1px solid #FA8072;
+}
+
+.submit::before{
+
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #FA8072;
+    z-index: -1;
+    transition: 0.8s;
+
+    top: 0;
+    border-radius: 0 0 50% 50% ;
+
+}
+
+.submit:hover::before{
+height: 180%;
+}
+ 
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	text-align: center;
+	position: relative;
+	display: inline-block;
+}
+  
+  /* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+  
+  /* Links inside the dropdown */
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+  
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+/*För HEM sidan*/
+.instructions{
+	width: 600px;
+	background: rgb(175, 215, 216);
+	height: 420px;
+	padding: 35px 30px;
+	border-radius: 20px;
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: "Century Gothic", sans-serif;
+	font-size: medium;
+}
+
+.guide{
+	width: 90%;
+	margin: 0 auto;
+	color: white;
+    background: #FA8072;
+	text-align: center;
+	display: inline-block;
+	margin-top: 550px;
+	margin-left:75px;
+	border-radius: 20px;
+}
+
+.small{
+	font-size: smaller;
+}
+
+.l{
+	text-align: center;
+}
+
+img{
+  width: 50%;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.instructions1{
+	width: 500px;
+	background: rgb(175, 215, 216);
+	height: 500px;
+	padding: 35px 30px;
+	border-radius: 20px;
+	position: absolute;
+	left: 25%;
+	top: 168%;
+	transform: translate(-50%, -50%);
+	font-family: "Century Gothic", sans-serif;
+	font-size: medium;
+}
+
+.instructions2{
+	width: 500px;
+	background: rgb(175, 215, 216);
+	height: 500px;
+	padding: 35px 30px;
+	border-radius: 20px;
+	position: absolute;
+	left: 75%;
+	top: 168%;
+	transform: translate(-50%, -50%);
+	font-family: "Century Gothic", sans-serif;
+	font-size: medium;
+}
+
+.bottomTx{
+	width: 90%;
+	margin: 0 auto;
+	color: white;
+    background: #FA8072;
+	text-align: center;
+	display: inline-block;
+	margin-top: 1000px;
+	margin-left:75px;
+	border-radius: 20px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>  
+<html>
+    <head>
+        <meta charset="UTF8" />
+        <link rel="stylesheet" type="text/css" href="Style.css">
+        <script src="Java.js"></script>
+</head>
+    <body>
+            <header>
+                <div class="container">
+                    <h1>STARTSIDA</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">ABOUT</a></li>
+                            <li><a href="#">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <form action="Login_page.php" method="post">
+                <div class="imgcontainer"> </div>
+                <div class="container">
+
+                <label for="användarnamn">Användarnamn/Emailadress:</label><br>
+                <input type="text" id="användarnamn" placeholder="Användarnamn" name="användarnamn" required><br>
+                <label for="lösenord">Lösenord:</label><br>
+                <input type="password" placeholder="Lösenord" id="lösernord" name="lösenord" required><br>
+                <br>
+                </div>
+                
+                <button type="submit" onclick="funktion()">Logga in</button>
+            <form action="Logout_page.php" method="post">
+                <button type="submit" onclick="funktion()">Logga ut</button>
+            </form>
+
+        </body>
+   
+</html>
+

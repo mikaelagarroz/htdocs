@@ -1,0 +1,34 @@
+body{
+    background: linear-gradient(to bottom, white 50%, black 50%) fixed;
+
+    
+}
+header{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+
+}
+p1{
+    font-family: 'Courier New', Courier, monospace; 
+    color:black;
+    font-size: 40px;
+
+}
+h3{
+    font-family: "sans-serif", Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    margin-left: 20px;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;;    color:black;
+    margin-left: 20px;
+    font-style: Lucida;
+    color: black;
+}
+form{
+    color: black;
+    font-family: "sans-serif", Verdana, Geneva, Tahoma, sans-serif;    margin-left: 20px;
+    font-size: 10px;
+    
+}

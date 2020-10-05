@@ -1,0 +1,21 @@
+.main{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    background: linear-gradient(to right, #FA8072, #afd7d8);
+ }
+ 
+ .value{
+    width: 217;
+    margin: 5;
+    font-size: 25;
+    padding: 5;
+ }
+ 
+ .button{
+    width: 50;
+    height: 50;
+    font-size: 25;
+    margin: 2;
+    cursor: pointer;
+ }
